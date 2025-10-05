@@ -10,8 +10,19 @@
 
 ## Запуск
 ```bash
+# Для macos
+python -m venv .venv
+source .venv/bin/activate
+pip inatall -r requirements.txt
 python sample_code.py 20231210 20231231
 ```
 
 ## Получаем изображение
 ![График, который составил тестовый код](img/top_articles.png)
+
+## Запуск готового кода
+```bash
+python refactoring_code.py 20231210 20231231
+```
+## Получаем изображение
+![График, который составил готовый код](img/ref_top_articles.png)
