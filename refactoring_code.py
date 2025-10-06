@@ -84,7 +84,6 @@ def validate_dates(start_date, end_date):
 def collect_wiki_data(start_date, end_date):
     """Сбор данных из Википедии за указанный период"""
 
-    logger = logging.getLogger(__name__)
     delta = dt.timedelta(days=1)
     current_date = start_date
 
